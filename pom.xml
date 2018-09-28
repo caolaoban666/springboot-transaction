@@ -14,6 +14,7 @@
         <module>SpringBoot-common</module>
         <module>SpringBoot-jdbc</module>
         <module>SpringBoot-mybatis</module>
+        <module>SpringBoot-jpa</module>
     </modules>
 
     <!--将此项目标记为一个 Spring Boot 项目-->
