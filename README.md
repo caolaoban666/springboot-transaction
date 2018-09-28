@@ -3,8 +3,8 @@
 #### 项目介绍
 - SpringBoot 项目各种示例，持续更新下中....
 
-- SpringBoot-hello          SpringBoot HelloWorld 
-- SpringBoot-readConfig     SpringBoot 读取配置文件方式
+- SpringBoot-hello              ======= SpringBoot HelloWorld 
+- SpringBoot-readConfig         ======= SpringBoot 读取配置文件方式
 
 
 # 更新记录
