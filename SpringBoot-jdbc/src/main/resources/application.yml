@@ -1,0 +1,23 @@
+spring:
+## 默认数据源配置
+  datasource:
+    primary:
+      url: jdbc:oracle:thin:@192.168.130.231:1521/hiup
+      username: AESB
+      password: AESB
+      driver-class-name: oracle.jdbc.OracleDriver
+      initial-size: 0                                               # 初始化连接大小
+      max-active: 20                                                # 连接池最大使用连接数量
+      max-idle: 20                                                  # 连接池最大空闲
+      min-idle: 0                                                   # 连接池最小空闲
+      max-wait: 60000                                               # 获取连接最大等待时间
+    secondary:
+      url: jdbc:oracle:thin:@192.168.130.231:1521/hiup
+      username: EMPI_NEW
+      password: EMPI_NEW
+      driver-class-name: oracle.jdbc.OracleDriver
+      initial-size: 0                                               # 初始化连接大小
+      max-active: 20                                                # 连接池最大使用连接数量
+      max-idle: 20                                                  # 连接池最大空闲
+      min-idle: 0                                                   # 连接池最小空闲
+      max-wait: 60000                                               # 获取连接最大等待时间
